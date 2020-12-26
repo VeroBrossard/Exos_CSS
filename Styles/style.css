@@ -1,4 +1,4 @@
-/* ********** pour index et exo_7 ************* */
+/* ********** pour index  ************* */
 
 html {
   background-color: rgb(216, 220, 223);
@@ -53,65 +53,6 @@ legend {
   font-size: larger;
 }
 
-/*  ************   specifique exo_7.html *************/
-#bodyexo7 {
-  padding: 0px;
-  width: 800px;
-}
-
-#header7 {
-  background: url(../images/guirlande.jpg) no-repeat;
-}
-
-#h1_7 {
-  color: gold;
-  text-shadow: 1px 1px brown;
-}
-
-#slogan7 {
-  font-size: 30px;
-  font-style: italic;
-}
-
-#videoBar7 {
-  width: 30%;
-  float: right;
-  padding-right: 10px;
-}
-
-.video7 {
-  height: 97px;
-  width: 155px;
-  padding-bottom: 20px;
-  overflow-wrap: break-word;
-}
-
-.text_gold {
-  color: gold;
-  text-shadow: 1px 1px brown;
-}
-
-.section7 {
-  /* border:2px solid greenyellow; */
-  width: 65%;
-  padding-left: 40px;
-  text-align: justify;
-}
-#fieldset7, #h2_7{
-  margin-left: 40px;
-}
-
-#img_7 {
-  width: 100%;
-  margin: 0px;
-
-}
-
-#lien7 {
-  font-size: 12px;
-  color: blueviolet;
-  text-shadow: none;
-}
 
 /*  a voir plus tard 
 p::before { 
