@@ -1,0 +1,16 @@
+#modele{
+width: 50%;
+float: right;
+}
+.stopfloat{
+  clear: both
+}
+.bkgblue{
+  background-color:cornflowerblue ;
+}
+.bkgviolet{
+  background-color:blueviolet;
+}
+.bgcrimson{
+  background-color: crimson;
+}
