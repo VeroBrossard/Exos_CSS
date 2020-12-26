@@ -1,0 +1,90 @@
+.container1 {
+  display: flex;
+  flex-wrap: wrap;  /*J'autorise mes éléments à aller à la ligne */
+  /*   padding: 0; */
+  border: blue 1px solid;
+  width: 900px;
+  height: 200px;
+  /* justify-content: flex-end;
+  align-content: flex-start;
+  flex-wrap: wrap; */
+ 
+  /* justify-content: space-around;  */
+  /* align-items: stretch; */
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;   /*J'autorise mes éléments à aller à la ligne */
+  border: blue 1px solid;
+  width: 66%;
+}
+
+/* On prend les blocs élément dans leur ordre de création en html */
+.element1 {
+  width: 80%;
+  /* min-height: 10%;  */
+  background-color: forestgreen;
+}
+
+.element2 {
+  min-width: 20%;
+  /*  min-height: 10%; */
+  background-color: blue;
+}
+
+.element3 {
+ width: 30%;
+  /* height: 100%; */
+  background-color: crimson;
+}
+
+.element4 {
+  width: 50%;
+  /*  max-height: 20%;
+  flex:auto; */
+  background-color: orangered;
+}
+
+.element5 {
+  width: 50%;
+  /* min-width: 33%;
+  max-height: 20%; */
+  background-color: gray;
+  /* flex: 1; */
+}
+
+.element6 {
+   width: 33%;
+  /*min-height: 20%; */
+  background-color: gold;
+}
+
+.element7 {
+  width: 33%;
+  /*  min-height: 20%; */
+  background-color: darkseagreen;
+}
+
+.element8 {
+  width: 33%;
+  /*  min-height: 20%; */
+  background-color: maroon;
+}
+
+.element9 {
+  height: 50%;
+  width: 100%;
+  background-color: darkslateblue;
+}
+
+
+#modele {
+  float: right;
+  width: 400px;
+  height: auto;
+}
+
+#libelle {
+  background-color: blanchedalmond;
+}

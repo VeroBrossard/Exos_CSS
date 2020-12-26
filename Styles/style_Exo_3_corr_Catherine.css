@@ -1,0 +1,70 @@
+/* correction CatherineAbd exo 3 css */
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 200px;
+}
+
+.rect1
+{
+    background-color:#2ECC71;
+    width: 80%;
+    height: 50px;
+}
+.rect2
+{
+    background-color:#2980B9;
+    width: 20%;
+    height: 50px;
+}
+.rect3
+{
+    background-color:#E74C3C;
+    width: 30%;
+    height: 200px;
+}
+.rect4
+{
+    background-color:#E67E22;
+    width: 50%;
+    height: 100px;
+}
+.rect5
+{
+    background-color:#95A5A6;
+    width: 50%;
+    height: 100px;
+}
+.rect6
+{
+    background-color:#F39C12;
+    width: 33%;
+    height: 100px;
+}
+.rect7
+{
+    background-color:#16A085;
+    width: 34%;
+    height: 100px;
+}
+.rect8
+{
+    background-color:#D35400;
+    width: 33%;
+    height: 100px;
+}
+.rect9
+{
+    background-color:#2C3E50;
+    width: 100%;
+    height: 300px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #libelle {
+      background-color: blanchedalmond;
+    }
+
+    table {
+      /* évite les bordures doubles */
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid black;
+    }
+
+    th {
+      /*     pour entêtes  du tableau  */
+      text-align: center;
+      border: 1px solid black;
+    }
+
+    tfoot {
+      text-align: center;
+    }
+  </style>
+  <title>Reprise de l’exercice 5 du HTML avec Style en HEAD </title>
+</head>
+
+<body>
+  <header>
+    <span id="libelle">Exo 1 : Reprise de l’exercice 5 du HTML avec Style en HEAD.. </span><br />
+  </header>
+  <section>
+    <hr />
+    <h2>Exo 5: / Tableau ... </h2>
+    <p>
+      <table>
+        <thead>
+          <tr>
+            <!-- caption pour legende tableau-->
+            <caption>Mon compte BNP</caption>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Date</th>
+            <th>Libellé</th>
+            <th>Crédit</th>
+            <th>Débit</th>
+          </tr>
+
+          <tr>
+            <td>01/05/2016</td>
+            <td>Paye</td>
+            <td>1500</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>01/05/2016</td>
+            <td>Courses de la semaine</td>
+            <td>0</td>
+            <td>152.30</td>
+          </tr>
+          <tr>
+            <td>04/05/2016</td>
+            <td>Mc Do</td>
+            <td>0</td>
+            <td>32.40</td>
+          </tr>
+          <tr>
+            <td>04/05/2016</td>
+            <td>Loyer</td>
+            <td>0</td>
+            <td>700</td>
+          </tr>
+          <tr>
+            <td>05/05/2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>39.90</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="2">Solde</td>
+          <td colspan="2">575.40 €</td>
+        </tfoot>
+      </table>
+    </p>
+  </section>
+</body>
+
+</html>
