@@ -1,0 +1,79 @@
+.imgbkgrd {
+	background-image: url("../images/guirlande.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.imgbkgrd .text {
+  text-align: center;
+  margin: 0 auto;
+  color: gold;
+  text-shadow: 1px 1px brown;
+  opacity: 1;
+}
+
+
+
+.text_gold {
+  color: gold;
+  text-shadow: 1px 1px brown;
+}
+
+.span_href_exo {
+  /* min-width: 10%; */
+  padding: 10px;
+  color: white;
+}
+li.nav-item {
+  padding: 5px 5px;
+  margin: 0px 10px;
+	background-color: bisque;
+  border: 2px dotted blueviolet;
+  width: 150px;
+}
+
+.span_href_tips {
+  padding: 7px;
+  color: rgb(78, 23, 207);
+  /* font-size:medium; */
+}
+
+.video7 {
+  max-width: 100%;
+  max-height: auto;
+  padding-bottom: 20px;
+  overflow-wrap: break-word;
+}
+
+h2{
+  font-style: italic ;
+}
+
+
+		/*- juste piur visualiser les row et col pdt la création  */
+		/* .row {
+			border: 1px solid blue;
+			padding: 3px;
+		} */
+/* 
+		[class^='col'] {
+			border: 2px dotted red;
+		} */
+
+		/* 
+      .container {
+        width: 100%;
+        border: 1px solid goldenrod;
+      } */
+		/* 
+      .container-fluid {
+        border: 20px solid chartreuse;
+      } */
+
+		/* [class^='nav'] {
+      border: 2px dotted orange;
+		} */
+	

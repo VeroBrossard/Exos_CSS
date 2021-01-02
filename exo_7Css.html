@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+      
+  <!-- Required meta tags -->
+      
+  <meta charset="utf-8" />
+      
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      
+  <!-- Bootstrap CSS -->
+      
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+      
+  <style>
+    /*- juste piur visualiser les row et col pdt la création  */
+    /* .row {
+      border: 1px solid #eba851;
+      padding: 3px;
+    } */
+
+    /* .container {
+      border: 20px solid goldenrod;
+    } */
+
+    /* .container-fluid {
+      border: 20px solid red;
+    } */
+
+     /* [class^='nav'] {
+      border: 2px dotted orange;
+    } */
+  
+    .imgbkgrd {
+			background-image: url("images/guirlande.jpg");
+			border: solid 3px red;
+			background-size: cover;
+			background-repeat: no-repeat;
+      width: 100%;
+      height:auto;
+			opacity: 0.8;
+    }
+    .imgbkgrd .text {
+			text-align: center;
+			margin: 0 auto;
+			color: gold;
+			text-shadow: 1px 1px brown;
+			opacity: 1;
+    } 
+    li.nav-item{
+     padding: 5px 15px;
+    }
+
+  </style>
+  <title>Info School</title>
+    
+</head>
+
+<body>
+  <!-- <div class="jumbotron">
+    <h1>Bienvenue sur Info School !</h1>
+ </div> -->
+ <!--  ********** header  ********** -->
+ <div class="container-fluid imgbkgrd img-fluid ">
+  <div class="row">
+    <div class="col text">
+      <h1>Exo6 Css basé sur exo5 CS et exo7 HTML,</h1>
+      <h2><i>reprise améliorée de l'exercice 2 HTML</i> </h2><br />
+      <big>"Ensemble, c'est plus facile !!! "</big><br /><br />
+    </div>
+  </div>
+</div>
+<!--  ********** liens   ********** -->
+<div class="bg-warning"> 
+    <div class="container">
+      <div class="row">
+        <!-- Barre de navigation  lien vers la marque  -->
+        <nav class="col navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="indexCSS.html">
+            <img src="images/logo.png" width="50px" height="auto" alt="Site logo" title="Vers index"></a>
+          <!-- insertion du bouton Bascule   -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- liste des liens -->
+  
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_1Css.html" target="blank_">
+                  <span style="padding: 20px;">Exo 1</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_2Css.html">  
+                  <span style="padding: 20px;">Exo 2</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_3Css.html">  
+                  <span style="padding: 20px;">Exo 3</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_4Css.html">  
+                  <span style="padding: 20px;">Exo 4</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_5Css.html">  
+                  <span style="padding: 20px;">Exo 5</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link badge bg-success" href="exo_6Css.html">  
+                  <span style="padding: 20px;">Exo 6</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link badge bg-success" href="exo_6Css.html">  
+                  <span style="padding: 20px;">Exo 7</span></a>
+              </li>
+
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- ********** CORPS de la PAGE  **********-->
+  <div class="container">
+    <div class="row ">
+      <div class="col"><!-- pour image centrale-->
+        <div class="jumbotron">
+          <h1>Bienvenue sur Info School !</h1>
+        </div>
+        <div > <!-- photo centrale -->
+          <img src="images/modele_consignes.png" class="img-fluid card-img-top" alt="Travail sur Ordinateur">
+          <!-- class="img-fluid"  pour respnsive  -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--  **********  pied de page   **********  -->
+  <div class=" bg-light text-info">
+      <div class="container font-weight-bold ">
+        <div class="row py-3">
+          <div class="col">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">A propos</li>
+              <li class="list-inline-item">&middot;</li>
+              <li class="list-inline-item">Vie privée</li>
+              <li class="list-inline-item">&middot;</li>
+              <li class="list-inline-item">Conditions d'utilisation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+      
+  <!-- Optional JavaScript -->
+      
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+      
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+      
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
