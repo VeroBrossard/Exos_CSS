@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="Styles/style6.css">
 
 
-	<title>Info School</title>
+	<title>Page en bootstrap</title>
 	  
 </head>
 
@@ -25,7 +25,7 @@
 	<!-- <div class="jumbotron">
     <h1>Bienvenue sur Info School !</h1>
  </div> -->
-	<!--  ********** header  ********** -->
+	<!--  ********** header  / titre********** -->
 	<div class="container-fluid imgbkgrd img-fluid">
 		<div class="row text-center">
 			<div class="col text_gold">
@@ -46,7 +46,7 @@
 	<!--  ********** barre de sépartion horizontale ********** -->
 	<div class="container-fluid">
 	</div>
-	<div class="container">
+	<div class="container"> <!-- 1er paragraphe -->
 		<div class="row">
 			<div class="col">
 				<h2 class="text_gold text-center" style="margin-top: 20px;">C'est bientôt... NOËL!!!</h2>
@@ -58,9 +58,8 @@
 		</div>
 	</div>
 
-	<div class="container">
-		<!--  ********** corps du site  ********** -->
-		<!-- par https://askcodez.com/comment-creer-une-barre-laterale-de-mise-en-page-avec-bootstrap-4.html-->
+	<div class="container">	<!--  ********** corps du site & sidebar ********** -->
+		<!-- sur base de  https://askcodez.com/comment-creer-une-barre-laterale-de-mise-en-page-avec-bootstrap-4.html-->
 		<div class="row py-3">
 			<div class="col-3 order-3" id="video-sidebar">
 				<!--   essai side barre vidéo en colonne  à droite -->
@@ -110,15 +109,15 @@
 				</div>
 			</div>
 
-			<div class="col-2 bg-warning" id="sticky-sidebar">
+			<div class="col-2 bg-warning" id="sticky-sidebar"><!-- liens vers exos en sticky-sidebar-->
 				<!-- sidebar "collante" à gauche -->
 				<div class="sticky-top">
 					<div class="nav flex-column">
 						<!--  *********   Side bar   ************ -->
-						<div>
+						<div class="sticky_div">
 							<a class="navbar-brand" href="indexCSS.html">
 								<img src="images/logo.png" width="30px" height="auto" alt="vers Index" title="Vers index"
-									target="blank_" />...</a><br />
+									target="blank_" />Index</a><br />
 
 							<a class="nav-link badge bg-success" href="exo_1Css.html" target="blank_">
 								<span class="span_href_exo">Exo 1</span>
@@ -243,19 +242,14 @@
 
 	<!--  **********  pied de page   **********  -->
 	<div class="bg-light text-info">
-		<div class="container-fluid font-weight-bold">
-			<div class="row py-3">
-				<!-- mettre les liens dès que possible  -->
-				<div class="col">
-					<ul class="list-inline text-center">
-						<li class="list-inline-item">A propos</li>
-						<li class="list-inline-item">&middot;</li>
-						<li class="list-inline-item">Vie privée</li>
-						<li class="list-inline-item">&middot;</li>
-						<li class="list-inline-item">Conditions d'utilisation</li>
-					</ul>
-				</div>
-			</div>
+		<div class="container-fluid">
+			<footer>
+				<div style="margin: 50px;"> <!-- lien de retour à l'index des exos -->
+							<hr >
+							<a href="javascript:window.close();">Fermer la fenêtre</a>
+							<!-- <a href="indexCSS.html" title="lien de retour à l'index des exos">Retour à l'index des Exos</a> -->
+						</div>
+			</footer>
 		</div>
 	</div>
 
