@@ -21,12 +21,13 @@
   color: gold;
   text-shadow: 1px 1px brown;
 }
+.badge{
+  margin-bottom: 10px;
+}
+
 .sticky_div{
  text-align: center; 
  padding-top: 20px;
-}
-.badge{
-  margin-bottom: 10px;
 }
 
 .span_href_exo {
